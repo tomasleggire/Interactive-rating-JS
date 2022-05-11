@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 5%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Anybody', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Overpass', sans-serif;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    background-color: hsl(220, 26%, 13%);
+    border-radius: 20px;
+}
+
+.svg1 {
+    height: 45px;
+    width: 45px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-right: 30px;
+}
+
+.h1-1 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.p-1 {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.buttons {
+    align-self: center;
+    display: flex;
+    min-width: 380px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.btn-sumbit {
+    margin: auto;
+    padding: 13px 150px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 35px;
+    background-color: hsl(25, 97%, 53%);
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.btn-sumbit:hover {
+    background-color: rgb(255, 255, 255);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:470px) {
+    .buttons {
+        min-width: 300px;
+    }
+    .btn-sumbit {
+        padding: 13px 120px;
+    }
+    .container-1 {
+        max-width: 340px;
+    }
+    .p-1 {
+        text-align: center;
+    }
+    .h1-1 {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    background-color: hsl(220, 26%, 13%);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.rating {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.h1-2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+
+.p-2 {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width:470px) {
+    .container-2 {
+        max-width: 340px;
+    }
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.selected {
+    background-color: hsl(217, 12%, 63%);
+    color: rgb(255, 255, 255);
+}
